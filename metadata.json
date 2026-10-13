@@ -1,0 +1,6 @@
+{
+  "name": "BabyCare E-Commerce Store",
+  "description": "Complete, production-ready baby products e-commerce store with rich catalog, cart, checkout, customer accounts, and administrative dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

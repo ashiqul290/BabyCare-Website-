@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bgGrad)" rx="24"/>
+  
+  <!-- Subtle circular halo -->
+  <circle cx="200" cy="180" r="130" fill="#2563eb" opacity="0.06"/>
+  
+  <!-- Central Product Packaging Container -->
+  <g filter="url(#shadow)">
+    <!-- Container Body -->
+    <rect x="90" y="65" width="220" height="250" rx="20" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    
+    <!-- Top Cap / Lid / Header -->
+    <path d="M 90 85 Q 90 65 110 65 L 290 65 Q 310 65 310 85 L 310 120 L 90 120 Z" fill="url(#accentGrad)"/>
+    
+    <!-- Category/Badge pill on container -->
+    <rect x="135" y="78" width="130" height="26" rx="13" fill="#ffffff" opacity="0.95"/>
+    <text x="200" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#2563eb" text-anchor="middle" letter-spacing="0.5">ORIGINAL</text>
+    
+    <!-- Product Graphic Shape inside -->
+    <circle cx="200" cy="175" r="42" fill="#2563eb" opacity="0.12"/>
+    <circle cx="200" cy="175" r="32" fill="#2563eb" opacity="0.22"/>
+    
+    <!-- Decorative Icon / Star -->
+    <path d="M 200 156 L 204 168 L 217 168 L 206 176 L 210 188 L 200 180 L 190 188 L 194 176 L 183 168 L 196 168 Z" fill="#2563eb"/>
+    
+    <!-- Product Brand and Title on Card -->
+    <text x="200" y="235" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" fill="#1e293b" text-anchor="middle">MamyPoko XL</text>
+    
+    <!-- Subtitle on Packaging -->
+    <text x="200" y="260" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#64748b" text-anchor="middle">Extra Absorb Pants 48 Pcs</text>
+    
+    <!-- Trust Seal Bottom -->
+    <rect x="120" y="282" width="160" height="20" rx="10" fill="#f1f5f9"/>
+    <text x="200" y="296" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="600" fill="#475569" text-anchor="middle">★ CLINICALLY TESTED ★</text>
+  </g>
+  
+  <!-- Modern Clean Bottom Reflection -->
+  <ellipse cx="200" cy="335" rx="90" ry="10" fill="#000000" opacity="0.05"/>
+</svg>
